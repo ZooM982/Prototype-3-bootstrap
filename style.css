@@ -234,8 +234,22 @@
 #tech .card img{
 	height: 50px;
 }
-#Contact .form{
+#Contact{
 	background-image: url(images/map-image.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+
+#Contact h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+#Contact p{
+	font-family: "Roboto Slab";
+	font-style: italic;
 }
 #Contact .frm{
 	display: inline-flex;
@@ -246,6 +260,16 @@
 }
 .frm textarea{
 	height: 242px;
+}
+#Contact .btn{
+	width: 200px;
+	height: 70px;
+	color: #FFF;
+	font-family: "Roboto Slab";
+	font-weight: 700;
+}
+#Contact .btn p{
+	margin-top: 15px;
 }
 /*--contact section exit--*/
 
