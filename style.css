@@ -227,24 +227,26 @@
 /*--team section exit--*/
 
 /*--contact section--*/
-
-#Contact .tech{
-	width: 150px;
-	height: 100px;
+#tech .card {
+	border: none;
+	border-radius: 0;
 }
-#Contact .tech img{
+#tech .card img{
 	height: 50px;
 }
-#Contact .tech1{
+#Contact .form{
+	background-image: url(images/map-image.png);
+}
+#Contact .frm{
 	display: inline-flex;
 }
-@media (max-width:780px){
-	#Contact .tech1{
-		display: inline-grid;
-		margin-left: -20px;
-	}
+.frm input{
+	height: 70px;
+	width: 500px;
 }
-
+.frm textarea{
+	height: 242px;
+}
 /*--contact section exit--*/
 
 /*============= MAIN PART EXIT===================*/
