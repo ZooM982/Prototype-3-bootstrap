@@ -271,6 +271,43 @@
 #Contact .btn p{
 	margin-top: 15px;
 }
+@media (max-width:780px){
+	#Contact .frm{
+	display: inline-grid;
+	}
+	.frm input{
+	height: 40px;
+	width: 100%;
+	}
+.frm textarea{
+	height: 100%;
+	}
+}
 /*--contact section exit--*/
 
 /*============= MAIN PART EXIT===================*/
+/*-- Footer--*/
+footer{
+	height: 50px;
+}
+footer i{
+	font-size: 28px;
+	color: white;
+	margin-top: 12px;
+}
+footer .ig{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #000;
+	margin: 10px;
+}
+footer p{
+	padding-top: 25px;
+}
+
+@media (max-width:780px){
+	.crt p{
+		margin: 10px;
+	}
+}
