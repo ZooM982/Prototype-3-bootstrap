@@ -227,6 +227,24 @@
 /*--team section exit--*/
 
 /*--contact section--*/
+
+#Contact .tech{
+	width: 150px;
+	height: 100px;
+}
+#Contact .tech img{
+	height: 50px;
+}
+#Contact .tech1{
+	display: inline-flex;
+}
+@media (max-width:780px){
+	#Contact .tech1{
+		display: inline-grid;
+		margin-left: -20px;
+	}
+}
+
 /*--contact section exit--*/
 
 /*============= MAIN PART EXIT===================*/
