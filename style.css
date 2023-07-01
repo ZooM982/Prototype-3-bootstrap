@@ -497,6 +497,12 @@
 #Contact .btn p{
 	margin-top: 15px;
 }
+
+#Contact .form .form-control:focus {
+  border-color: #ffc800;
+  box-shadow: none;
+}
+
 @media (max-width:780px){
 	#Contact .frm{
 	display: inline-grid;
@@ -546,9 +552,4 @@ footer p{
 	#tech {
 		margin-top: -30px;
 	}
-}
-
-#Contact .form .form-control:focus {
-  border-color: #ffc800;
-  box-shadow: none;
 }
